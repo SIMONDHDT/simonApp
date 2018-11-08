@@ -1,0 +1,41 @@
+body
+{
+  font-family: arial;
+  background-image: url("images/background.jpg");
+  color: white;
+}
+.input
+{
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  border-width: 2px;
+}
+.center
+{
+  text-align: center;
+}
+.box
+{
+  display: flex !important;
+  justify-content: center!important;
+  align-items: center!important;
+  height: 100vh !important;
+}
+.border
+{
+  border-style: solid!important;
+  border-width: 2px!important;
+  border-color: rgb(83,164,81)!important;
+  border-radius: 3px;
+}
+.contenu-bg
+{
+  background-color: rgba(1,1,1,0.8);
+  border-radius: 10px;
+}
+.contenu
+{
+  margin-left: 50px;
+  margin-right: 50px;
+}
